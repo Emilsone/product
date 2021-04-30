@@ -1,5 +1,8 @@
 # farm-product
 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf9ec222-fe8b-43c3-84dd-d0cc554b1581/deploy-status)](https://app.netlify.com/sites/farmpro/deploys)
+
 ## Project setup
 ```
 npm install
