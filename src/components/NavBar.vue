@@ -71,7 +71,7 @@
               ><router-link to="/">CONTACT US</router-link></a
             >
           </li>
-          <template v-if="!CurrentUser">
+          
             
             <li class="mr-3">
               <a
@@ -80,16 +80,8 @@
                 ><router-link to="/signin"> Sign In </router-link></a
               >
             </li>
-          </template>
-          <template v-else>
-            <li class="mr-3">
-              <a
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                @click="LogOut"
-                >Log Out</a
-              >
-            </li>
-          </template>
+
+         
         </ul>
       </div>
     </div>
