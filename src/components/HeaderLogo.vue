@@ -1,11 +1,10 @@
 <template>
-  <div>
+  <div class="">
     <img
       alt="logo image"
-      class="w-24 h-24 mb-2  inline-block"
+      class="w-24 h-24 mb-2 "
       src="../assets/farm-logo.png"
     />
-    
   </div>
 </template>
 
@@ -22,17 +21,17 @@ export default {
       default: false,
     },
   },
-  computed: {
-    classList() {
-      let classList = "";
-      if (this.isStickable) {
-        classList = this.isSticky ? "text-black" : "text-gray-800";
-      } else {
-        classList = "text-black";
-      }
-      return classList;
-    },
-  },
+  // computed: {
+  //   classList() {
+  //     let classList = "";
+  //     if (this.isStickable) {
+  //       classList = this.isSticky ? "text-black" : "text-gray-800";
+  //     } else {
+  //       classList = "text-black";
+  //     }
+  //     return classList;
+  //   },
+  // },
 };
 </script>
 <style scoped>
