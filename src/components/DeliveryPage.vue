@@ -7,41 +7,29 @@
       <div class="flex flex-wrap justify-around md:justify-center">
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
-            <!-- <img
-              alt="testimonial"
-              class="w-20 h-20 mb-8 object-cover object-center inline-block"
-              src="../assets/clipboard.png"
-            /> -->
+            <div class="w-40 h-40 mb-8 bg-gray-200 rounded-full mx-4"></div>
             <h2
               class="text-gray-900 font-medium title-font tracking-wider text-sm"
             >
-              02.
+              01.
             </h2>
             <p class="leading-relaxed">Connect to nearest farm</p>
           </div>
         </div>
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
-            <!-- <img
-              alt="testimonial"
-              class="w-20 h-20 mb-8 object-cover object-center inline-block"
-              src="../assets/clipboard.png"
-            /> -->
+            <div class="w-40 h-40 mb-8 bg-gray-200 rounded-full mx-4"></div>
             <h2
               class="text-gray-900 font-medium title-font tracking-wider text-sm"
             >
-              01.
+              02.
             </h2>
             <p class="leading-relaxed">Place your order</p>
           </div>
         </div>
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4 md:mx-auto">
           <div class="h-full text-center">
-            <!-- <img
-              alt="testimonial"
-              class="w-20 h-20 mb-8 object-cover object-center inline-block"
-              src="../assets/easy.png"
-            /> -->
+            <div class="w-40 h-40 mb-8 bg-gray-200 rounded-full mx-4"></div>
             <h2
               class="text-gray-900 font-medium title-font tracking-wider text-sm"
             >
@@ -52,11 +40,7 @@
         </div>
         <div class="lg:w-1/4 w-5/6 lg:mb-0 p-4 md:mx-auto">
           <div class="h-full text-center">
-            <!-- <img
-              alt="testimonial"
-              class="w-20 h-20 mb-8 object-cover object-center inline-block"
-              src="../assets/laugh.png"
-            /> -->
+            <div class="w-40 h-40 mb-8 bg-gray-200 rounded-full mx-4"></div>
             <h2
               class="text-gray-900 font-medium title-font tracking-wider text-sm"
             >
