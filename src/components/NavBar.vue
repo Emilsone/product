@@ -34,8 +34,6 @@
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
       >
         <ul class="list-reset lg:flex justify-center flex-1 items-center">
-         
-
           <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
@@ -50,19 +48,20 @@
               ><router-link to="/">FARM PRODUCTS </router-link></a
             >
           </li>
-           <li class="mr-3">
+          <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/">OUR FARMERS <i class="icon-map"></i></router-link></a
-            >
+              ><router-link to="/"
+                >OUR FARMERS <i class="icon-map"></i></router-link
+            ></a>
           </li>
           <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/">FAQ <i class="icon-map"></i></router-link></a
-            >
+              ><router-link to="/">FAQ <i class="icon-map"></i></router-link
+            ></a>
           </li>
           <li class="mr-3">
             <a
@@ -75,20 +74,17 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/">CONTACT US</router-link></a
+              ><router-link to="/signin">CONTACT US</router-link></a
             >
           </li>
-          
-            
-            <li class="mr-3">
-              <a
-                class="inline-block text-white shadow-2xl btn-sign px-10 no-underline hover:text-underline py-3 md:mx-6"
-                href="#"
-                ><router-link to="/signin"> Sign In </router-link></a
-              >
-            </li>
 
-         
+          <li class="mr-3">
+            <a
+              class="inline-block text-white shadow-2xl btn-sign px-10 no-underline hover:text-underline py-3 md:mx-6"
+              href="#"
+              ><router-link to="/signin"> Sign In </router-link></a
+            >
+          </li>
         </ul>
       </div>
     </div>
