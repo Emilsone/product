@@ -14,7 +14,7 @@
           marginwidth="0"
           scrolling="no"
           src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-          style="filter: grayscale(1) contrast(1.2) opacity(0.4);"
+          style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
         ></iframe>
         <div class="bg-white relative flex flex-wrap py-6">
           <div class="lg:w-1/2 px-6">
@@ -33,13 +33,13 @@
             >
               EMAIL
             </h2>
-            <a class="text-indigo-500 leading-relaxed">shopnik_web@gmail.com</a>
+            <a class="link leading-relaxed">farmpro_web@gmail.com</a>
             <h2
               class="title-font font-medium text-gray-900 tracking-widest text-sm mt-4"
             >
               PHONE
             </h2>
-            <p class="leading-relaxed">+234-456-7890</p>
+            <p class="leading-relaxed">+234-070-8567-4917</p>
           </div>
         </div>
       </div>
@@ -67,13 +67,11 @@
           placeholder="Message"
         ></textarea>
         <button
-          class="text-white bg-black border-0 py-2 px-6 focus:outline-none  rounded text-lg"
+          class="text-white bg-black border-0 py-2 px-6 focus:outline-none rounded text-lg"
         >
           Send
         </button>
-        <p class="text-xs text-gray-500 mt-3">
-          Thanks for using our products
-        </p>
+        <p class="text-xs text-gray-500 mt-3">Thanks for using our products</p>
       </div>
     </div>
   </section>
@@ -81,6 +79,11 @@
 
 <script>
 export default {
-  name: 'ContactUs'
-}
+  name: "Contact",
+};
 </script>
+<style >
+.link {
+  color: #3d9421 !important;
+}
+</style>

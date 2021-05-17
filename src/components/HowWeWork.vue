@@ -1,9 +1,21 @@
 <template>
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
-      <h1 class="text-3xl font-bold title-font text-black mb-12 text-center">
-        WELCOME TO FARMPRO
-      </h1>
+      <div class="text-center mb-20">
+        <p
+          class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text font-bold"
+        >
+          Our Services
+        </p>
+        <h1 class="sm:text-3xl text-2xl font-bold title-font text-black mb-4">
+          WELCOME TO FARMPRO
+        </h1>
+        <div class="flex mt-6 justify-center">
+          <div class="w-16 h-1 rounded-full bg inline-flex"></div>
+        </div>
+      </div>
+      <span class="text-sm font-bold mb-4 text-justify"></span>
+      <h1 class="mb-12 text-center"></h1>
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
         <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
           <div class="h-64 overflow-hidden">
@@ -19,8 +31,8 @@
             Who We Are?
           </h2>
           <p class="text-base leading-relaxed mt-2 text-center">
-            Understanding the sometimes harmful methods of modern agriculture,
-            we started a niche for quality organic produce grown.
+            Understanding the sometimes methods of modern agriculture, we
+            started a niche for quality organic produce grown.
           </p>
         </div>
         <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -70,4 +82,10 @@ export default {
 };
 </script>
 <style >
+.text {
+  color: #3d9421;
+}
+.bg {
+  background-color: #3d9421;
+}
 </style>

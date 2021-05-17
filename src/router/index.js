@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import SignIn from '../views/SignIn.vue'
 import SignUp from '../views/SignUp.vue'
-import ContactUs from '../views/ContactUs.vue'
+import Contact from '../views/Contact.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -24,9 +24,9 @@ const routes = [
     component: SignUp
   },
   {
-    path: '/contactus ',
-    name: 'ContactUs',
-    component: ContactUs
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
 ]
 
