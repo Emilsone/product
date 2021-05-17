@@ -1,9 +1,17 @@
 <template>
   <section class="text-gray-600 body-font bg-section mt-24">
     <div class="container px-5 py-24 mx-auto">
-      <h1 class="text-3xl font-bold title-font text-black mb-12 text-center">
-       OUR  DELIVERY PROCESS
-      </h1>
+      <div class="text-center mb-20">
+        <p
+          class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text font-bold"
+        >
+          Delivery Process
+        </p>
+        <h1 class="sm:text-3xl text-2xl font-bold title-font text-black mb-4">
+          OUR DELIVERY PROCESS
+        </h1>
+       
+      </div>
       <div class="flex flex-wrap justify-around md:justify-center">
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
