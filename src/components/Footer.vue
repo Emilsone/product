@@ -47,11 +47,11 @@
           <div>
             <form class="flex md:flex-nowrap flex-wrap">
               <input
-                class=" md:w-5/6 w-5/6  p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+                class=" md:w-3/4 w-full p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
                 placeholder="your@mail.com"
               />
               <button
-                class="px-4 md:my-0 my-4 suscribe text-white p-4 uppercase border-t border-b border-r"
+                class="px-4 md:my-0 my-4 suscribe text-white p-4 uppercase border-t border-b border-r md:mx-auto block"
               >
                 Subscribe
               </button>
