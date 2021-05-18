@@ -1,6 +1,6 @@
 <template>
   <section class="hero___content">
-    <div class="pt-24 md:pt-56">
+    <div class="pt-40 md:pt-56">
       <div
         class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
       >
@@ -12,8 +12,8 @@
           <h1 class="my-4 text-6xl font-bold leading-tight">
             WELCOME TO FA<span class="r">R</span>MPRO
           </h1>
-          <p class="leading-normal text-lg mb-8">
-            Get the natural taste from the farm right to your doorstep
+          <p class="leading-normal text-lg mb-8 pt">
+            Get the natural taste from our farm right to your doorstep
           </p>
 
           <a href="#" class="btn p-4 px-6 text-white">Shop Now</a>
