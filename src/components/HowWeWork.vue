@@ -5,7 +5,7 @@
         <p
           class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text font-bold"
         >
-          Our Services
+          ~~ Our Services ~~
         </p>
         <h1 class="sm:text-3xl text-2xl font-bold title-font text-black mb-4">
           WELCOME TO FARMPRO

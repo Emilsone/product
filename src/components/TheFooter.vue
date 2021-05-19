@@ -63,17 +63,29 @@
           <div class="pt-10">
             <p class="uppercase md:mb-6 font-bold">Connect with us</p>
             <ul class="list-reset mb-6 py-3">
-              <li class="mt-2 inline-block mr-4 md:mr-6  w-12 span h-10  py-2">
-                <i class="fa fa-facebook align-center flex justify-center" aria-hidden="true"></i>
+              <li class="mt-2 inline-block mr-4 md:mr-6 w-12 span h-10 py-2">
+                <i
+                  class="fa fa-facebook align-center flex justify-center"
+                  aria-hidden="true"
+                ></i>
               </li>
-              <li class="mt-2 inline-block mr-4 md:mr-6  w-12 span h-10  py-2">
-                <i class="fa fa-twitter align-center flex justify-center" aria-hidden="true"></i>
+              <li class="mt-2 inline-block mr-4 md:mr-6 w-12 span h-10 py-2">
+                <i
+                  class="fa fa-twitter align-center flex justify-center"
+                  aria-hidden="true"
+                ></i>
               </li>
-              <li class="mt-2 inline-block mr-4 md:mr-6  w-12 span h-10  py-2">
-               <i class="fa fa-instagram align-center flex justify-center" aria-hidden="true"></i>
+              <li class="mt-2 inline-block mr-4 md:mr-6 w-12 span h-10 py-2">
+                <i
+                  class="fa fa-instagram align-center flex justify-center"
+                  aria-hidden="true"
+                ></i>
               </li>
-              <li class="mt-2 inline-block mr-4 md:mr-6  w-12 span h-10  py-2">
-                <i class="fa fa-linkedin align-center flex justify-center" aria-hidden="true"></i>
+              <li class="mt-2 inline-block mr-3 md:mr-6 w-12 span h-10 py-2">
+                <i
+                  class="fa fa-linkedin align-center flex justify-center"
+                  aria-hidden="true"
+                ></i>
               </li>
             </ul>
           </div>
@@ -88,7 +100,7 @@
 import FooterLogo from "@/components/FooterLogo";
 // import FooterInfo from "@/components/FooterInfo";
 export default {
-  name: "Footer",
+  name: "TheFooter",
   components: {
     FooterLogo,
     // FooterInfo,
@@ -114,6 +126,6 @@ export default {
 .span {
   background-color: #3d9421;
   color: white;
-  border-radius: 7px ;
+  border-radius: 7px;
 }
 </style>
