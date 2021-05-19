@@ -81,17 +81,20 @@
             <a
               class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/contact">
-                <i class="fa fa-heart-o text-lg" aria-hidden="true"></i></router-link
+              ><router-link to="/wishlistpage">
+                <i
+                  class="fa fa-heart-o text-lg"
+                  aria-hidden="true"
+                ></i></router-link
             ></a>
           </li>
         </ul>
-        <ul class="list-reset lg:flex   items-center">
+        <ul class="list-reset lg:flex items-center">
           <li class="mr-3">
             <a
               class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/contact">
+              ><router-link to="/cartpage">
                 <i
                   class="fa fa-shopping-bag text-2xl"
                   aria-hidden="true"
@@ -150,7 +153,6 @@ export default {
     },
   },
   methods: {
-   
     onClick() {
       this.isOpen = false;
     },

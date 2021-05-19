@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import SignIn from '../views/SignIn.vue'
 import SignUp from '../views/SignUp.vue'
 import Contact from '../views/Contact.vue'
+import WishListPage from '../views/WishListPage.vue'
+import CartPage from '../views/CartPage.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -27,6 +29,16 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+   {
+    path: '/wishlistpage',
+    name: 'WishListPage',
+    component: WishListPage
+  },
+  {
+    path: '/cartpage',
+    name: 'CartPage',
+    component: CartPage
   },
 ]
 
