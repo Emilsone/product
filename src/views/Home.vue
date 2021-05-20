@@ -1,28 +1,28 @@
 <template>
   <main class="text-white hero-section">
-    <NavBar />
+    <TheHeader />
     <Hero />
     <HowWeWork />
     <DeliveryPage />
     <DownloadApp />
-    <Footer />
+    <TheFooter />
   </main>
 </template>
 <script>
-import NavBar from "@/components/NavBar.vue";
+import TheHeader from "@/components/TheHeader.vue";
 import Hero from "@/components/Hero.vue";
 import HowWeWork from "@/components/HowWeWork.vue";
 import DeliveryPage from "@/components/DeliveryPage.vue";
 import DownloadApp from "@/components/DownloadApp.vue";
-import Footer from "@/components/Footer.vue";
+import TheFooter from "@/components/TheFooter.vue";
 export default {
   components: {
-    NavBar,
+    TheHeader,
     Hero,
     HowWeWork,
     DeliveryPage,
     DownloadApp,
-    Footer,
+    TheFooter,
   },
 };
 </script>

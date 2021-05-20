@@ -2,7 +2,7 @@
   <div class="">
     <img
       alt="logo image"
-      class="w-24 h-24 mb-2 "
+      class="w-24 h-24 mb-3 "
       src="../assets/farm-logo.png"
     />
   </div>

@@ -7,7 +7,7 @@
     />
     <p class="leading-7 text-sm  py-2">
       Welcome to Farmpro. Our products are freshly harvested, washed ready for
-      box and finally delivered from our family farm right to your doorstep.
+      box and finally delivered from our  farm right to your doorstep.
     </p>
   </div>
 </template>
