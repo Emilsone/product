@@ -15,7 +15,7 @@
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
             <div
-              class=" icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
             >
               <i
                 class="fa fa-home align-center flex justify-center"
@@ -34,7 +34,7 @@
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
             <div
-              class=" icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
             >
               <i
                 class="fa fa-leaf align-center flex justify-center"
@@ -52,7 +52,7 @@
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4 md:mx-auto">
           <div class="h-full text-center">
             <div
-              class=" icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
             >
               <i
                 class="fa fa-map align-center flex justify-center"
@@ -71,10 +71,10 @@
         <div class="lg:w-1/4 w-5/6 lg:mb-0 p-4 md:mx-auto">
           <div class="h-full text-center">
             <div
-              class=" icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
+              class="icon-bg w-40 h-40 inline-flex items-center justify-center rounded-full bg-gray-200 icon mb-5 flex-shrink-0"
             >
               <i
-                class="fa fa-truck align-center  flex justify-center"
+                class="fa fa-truck align-center flex justify-center"
                 aria-hidden="true"
               ></i>
             </div>
@@ -88,6 +88,9 @@
           </div>
         </div>
       </div>
+      <div class="flex justify-center align-center lg:mt-12">
+        <a href="#" class="btn p-4 px-6 text-white ">Shop Now</a>
+      </div>
     </div>
   </section>
 </template>
@@ -96,18 +99,22 @@ export default {
   name: "DeliveryPage",
 };
 </script>
-<style >
+<style>
 .bg-section {
   background-color: #f4f3f1;
 }
-.icon{
+.icon {
   color: #3d9421;
-  font-size:3rem;
+  font-size: 3rem;
 }
-.icon-bg:hover{
- background-color: #3d9421;
-  font-size:2rem;
-  color:#ffff;
+.icon-bg:hover {
+  background-color: #3d9421;
+  font-size: 2rem;
+  color: #ffff;
   border: 10px solid #f4f3f1;
+  transition: all 0.7s;
+}
+.btn {
+  background-color: #3d9421;
 }
 </style>

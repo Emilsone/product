@@ -22,7 +22,7 @@
             <img
               alt="content"
               class="object-cover object-center h-full w-full"
-              src="../assets/lime.jpg"
+              src="../assets/who.jpg"
             />
           </div>
           <h2
@@ -40,7 +40,7 @@
             <img
               alt="content"
               class="object-cover object-center h-full w-full"
-              src="../assets/leaf.jpg"
+              src="../assets/work.jpg"
             />
           </div>
           <h2
@@ -58,7 +58,7 @@
             <img
               alt="content"
               class="object-cover object-center h-full w-full"
-              src="../assets/apple.jpg"
+              src="../assets/grow.jpg"
             />
           </div>
           <h2
