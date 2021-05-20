@@ -29,7 +29,7 @@ export default {
   name: "Hero",
 };
 </script>
-<style>
+<style scoped>
 .btn {
   background-color: #3d9421;
   border-radius: 8px;
