@@ -10,7 +10,7 @@
         <h1
           class="sm:text-3xl text-2xl font-bold title-font text-black mb-4 mx-auto py-2"
         >
-         Featured Products
+          Featured Products
         </h1>
       </div>
 

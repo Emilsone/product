@@ -64,7 +64,7 @@
           <h2
             class="text-xl font-bold text-center title-font text-gray-900 mt-5"
           >
-           Our Products
+            Our Products
           </h2>
           <p class="text-base leading-relaxed mt-2 text-center">
             We take special care to select and grow specific crop varieties
