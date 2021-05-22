@@ -1,7 +1,7 @@
 <template>
   <section class="text-gray-700 body-font relative ">
     <TheHeader />
-    <div class="container px-5  mx-auto flex sm:flex-nowrap flex-wrap pt-48">
+    <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap pt-48">
       <div
         class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
       >
@@ -22,7 +22,10 @@
             <h2
               class="title-font font-semibold text-gray-900 tracking-widest text-xs"
             >
-              ADDRESS
+             <i
+                  class="fa fa-map text-lg"
+                  aria-hidden="true"
+                ></i>  ADDRESS
             </h2>
             <p class="mt-1">
             No 185 Abak Road Uyo Akwa ibom state
@@ -32,26 +35,32 @@
             <h2
               class="title-font font-semibold text-gray-900 tracking-widest text-xs"
             >
-              EMAIL
+             <i
+                  class="fa fa-envelope text-lg"
+                  aria-hidden="true"
+                ></i>  EMAIL
             </h2>
             <a class="text-indigo-500 leading-relaxed">farmpro@email.com</a>
             <h2
               class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"
             >
-              PHONE
+              <i
+                  class="fa fa-telephone text-2xl"
+                  aria-hidden="true"
+                ></i> PHONE
             </h2>
-            <p class="leading-relaxed">234-7085-</p>
+            <p class="leading-relaxed"> + 234-708-567-4917</p>
           </div>
         </div>
       </div>
       <div
         class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
       >
-        <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
-          Feedback
+        <h2 class="text-gray-900 text-xl mb-1  font-bold title-font">
+         SEND US A MESSAGE
         </h2>
         <p class="leading-relaxed mb-5 text-gray-600">
-          Post-ironic portland shabby chic echo park, banjo fashion axe
+         
         </p>
         <div class="relative mb-4">
           <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
@@ -84,9 +93,9 @@
           ></textarea>
         </div>
         <button
-          class="text-white  border-0 py-2 px-6 focus:outline-none rounded text-lg"
+          class="text-white form  border-0 py-2 px-6 focus:outline-none rounded text-lg"
         >
-          Button
+         Send Message
         </button>
         <p class="text-xs text-gray-500 mt-3">
           Chicharrones blog helvetica normcore iceland tousled brook viral
@@ -112,5 +121,8 @@ export default {
 <style >
 .link {
   color: #3d9421 !important;
+}
+.formatter {
+  background-color: #3d9421;
 }
 </style>
