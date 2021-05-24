@@ -1,4 +1,8 @@
 <template>
+<main class="contact-bg">
+
+</main>
+
   <section class="text-gray-700 body-font relative ">
     <TheHeader />
     <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap pt-48">
@@ -40,12 +44,12 @@
                   aria-hidden="true"
                 ></i>  EMAIL
             </h2>
-            <a class="text-indigo-500 leading-relaxed">farmpro@email.com</a>
+            <a class="text-indigo-500 leading-relaxed">farmpro@gmail.com</a>
             <h2
               class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"
             >
               <i
-                  class="fa fa-telephone text-2xl"
+                  class="fa fa-phone text-2xl"
                   aria-hidden="true"
                 ></i> PHONE
             </h2>
@@ -97,10 +101,7 @@
         >
          Send Message
         </button>
-        <p class="text-xs text-gray-500 mt-3">
-          Chicharrones blog helvetica normcore iceland tousled brook viral
-          artisan.
-        </p>
+       
       </div>
     </div>
     <TheFooter />
@@ -122,7 +123,13 @@ export default {
 .link {
   color: #3d9421 !important;
 }
-.formatter {
+.form {
   background-color: #3d9421;
+}
+.contact-bg {
+  background-image: url("../assets/home-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
 }
 </style>
