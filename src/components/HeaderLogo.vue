@@ -1,10 +1,14 @@
 <template>
   <div class="">
+    <router-link to="/">
+
+
     <img
       alt="logo image"
       class="w-24 h-24 mb-3 "
       src="../assets/farm-logo.png"
     />
+    </router-link>
   </div>
 </template>
 
