@@ -24,6 +24,16 @@
       </div>
       <div class="mt-10">
         <form method="POST" action="" autocomplete="">
+        <div class="relative w-full mb-3">
+            <input
+              type="name"
+              name="name"
+              class="border-0 p-4 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+              placeholder="Name"
+              style="transition: all 0.15s ease 0s"
+            />
+            <small class="p-2 text-red-500">* Name</small>
+          </div>
           <div class="relative w-full mb-3">
             <input
               type="email"
@@ -53,13 +63,11 @@
           </div>
           <div class="flex flex-wrap mt-6">
             <div class="w-1/2 text-left">
-              <a href="#" class="text-blue-900 text-xl"
-                ><small>Forgot password?</small></a
-              >
+             
             </div>
             <div class="w-1/2 text-right">
               <a href="#" class="text-blue-900 text-xl"
-                ><small>Have an account?</small></a
+                ><small> <router-link to="/signin">Have an account?</router-link> </small></a
               >
             </div>
           </div>
