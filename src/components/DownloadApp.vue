@@ -8,20 +8,29 @@
         <div
           class="flex flex-col w-full md:w-2/5 justify-center lg:items-start items-center text-center md:text-left hero-text"
         >
+          <h1 class="text-4xl font-bold py-3">Download Our App</h1>
           <p class="leading-normal text-lg mb-4 py-2">
-            Welcome to Farmpro. Our products are freshly harvested, washed ready
-            for box and finally delivered from our farm right to your doorstep.
+            Get your products washed ready for box and finally delivered from
+            our farm right to your doorstep.
           </p>
-          <div class="flex flex-row items-center justify-between lg:items-start  ">
-            <img class="w-40 px-4" src="../assets/play_store.png" />
-            <img class="w-40 px-4" src="../assets/play_store.png" />
+          <div
+            class="flex flex-row items-center justify-between lg:items-start py-2"
+          >
+            <img
+              class="object-cover object-center h-full w-full px-4"
+              src="../assets/appstore-btn.png"
+            />
+            <img
+              class="object-cover object-center h-full w-full px-4"
+              src="../assets/googleplay-btn.png"
+            />
           </div>
         </div>
         <!--Right Col-->
-        <div class="w-full md:w-3/5 my-12 md:py-6 text-center  ">
+        <div class="w-full md:w-3/5 my-0 md:py-6 text-center">
           <img
-            class="w-full md:w-4/5 z-50  bottom-0 left-0 right-0"
-            src="../assets/iphone-x-mockup.png"
+            class="w-full md:w-4/5 md:ml-32 ml-0"
+            src="../assets/mock-up.png"
             alt
           />
         </div>
@@ -38,5 +47,6 @@ export default {
 .bg-download {
   background-color: #f4f3f1;
   color: black;
+  height: 65vh;
 }
 </style>

@@ -22,7 +22,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/420x260"
+                src="../assets/carrot.jpg"
               />
             </a>
             <div class="mt-4">
@@ -40,7 +40,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/421x261"
+                src="../assets/avo.jpg"
               />
             </a>
             <div class="mt-4">
@@ -58,7 +58,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/422x262"
+                src="../assets/grape.jpg"
               />
             </a>
             <div class="mt-4">
@@ -76,7 +76,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/423x263"
+                src="../assets/spinach.jpg"
               />
             </a>
             <div class="mt-4">
@@ -94,7 +94,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/424x264"
+                src="../assets/lettuce.jpg"
               />
             </a>
             <div class="mt-4">
@@ -112,7 +112,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/425x265"
+                src="../assets/green.jpg"
               />
             </a>
             <div class="mt-4">
@@ -130,7 +130,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/427x267"
+                src="../assets/apple.jpg"
               />
             </a>
             <div class="mt-4">
@@ -148,7 +148,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="https://dummyimage.com/428x268"
+                src="../assets/banana.jpg"
               />
             </a>
             <div class="mt-4">
