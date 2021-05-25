@@ -121,4 +121,7 @@ export default {
 .form {
   background-color: #3d9421;
 }
+.border {
+  border-color: #3d9421;
+}
 </style>
