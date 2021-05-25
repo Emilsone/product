@@ -10,7 +10,7 @@
         >
           <p class="uppercase w-full">Your healthy life starts here with us</p>
           <h1 class="my-4 text-6xl font-bold leading-tight">
-            WELCOME TO FA<span class="r">R</span>MPRO
+            WELCOME TO <span class="r">FARMPRO</span>
           </h1>
           <p class="leading-normal text-lg mb-8 pt">
             Get the natural taste from our farm right to your doorstep
