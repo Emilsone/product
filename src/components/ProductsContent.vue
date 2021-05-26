@@ -15,14 +15,14 @@
       </div>
 
       <!-- <ProductList @tabchange="changeTab($event)" /> -->
-      <div class="product____container" v-show="tabActiveIndex == 0">
+      <div class="product____container " v-show="tabActiveIndex == 0">
         <div class="flex flex-wrap -m-4">
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/carrot.jpg"
+                src="../assets/png/kiwi.png"
               />
             </a>
             <div class="mt-4">
@@ -35,12 +35,12 @@
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/avo.jpg"
+                src="../assets/png/raspberry.png"
               />
             </a>
             <div class="mt-4">
@@ -53,12 +53,12 @@
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/grape.jpg"
+                src="../assets/png/strawberry.png"
               />
             </a>
             <div class="mt-4">
@@ -71,12 +71,12 @@
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/spinach.jpg"
+                src="../assets/png/tomatoe.png"
               />
             </a>
             <div class="mt-4">
@@ -89,12 +89,13 @@
               <p class="mt-1">$18.40</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/lettuce.jpg"
+                src="../assets/png/brocolli.png"
               />
             </a>
             <div class="mt-4">
@@ -107,15 +108,15 @@
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/green.jpg"
+                src="../assets/png/banana.png"
               />
             </a>
-            <div class="mt-4">
+            <div class="mt-4 ">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
                 CATEGORY
               </h3>
@@ -125,12 +126,12 @@
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/apple.jpg"
+                src="../assets/png/lemon.png"
               />
             </a>
             <div class="mt-4">
@@ -143,12 +144,12 @@
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/banana.jpg"
+                src="../assets/png/melon.png"
               />
             </a>
             <div class="mt-4">
