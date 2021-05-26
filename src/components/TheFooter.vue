@@ -42,12 +42,15 @@
         </div>
 
         <div class="flex-1 mb-6 py-6">
-          <p class="uppercase md:mb-6 font-bold py-2">
+          <p class="uppercase md:mb-6 font-bold py-0">
             newsletter subscription
           </p>
+          
           <!-- component -->
           <div>
+            <p class="texl-sm py-2">A 30-second newsletter with new product, discount, service.</p>
             <form class="flex md:flex-nowrap flex-wrap">
+              
               <input
                 class="md:w-3/4 w-full p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
                 placeholder="your@mail.com"

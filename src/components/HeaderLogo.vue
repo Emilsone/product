@@ -5,7 +5,7 @@
 
     <img
       alt="logo image"
-      class="w-24 h-24 mb-3 "
+      class="w-24 h-24 mb-4 "
       src="../assets/farm-logo.png"
     />
     </router-link>
