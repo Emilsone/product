@@ -15,13 +15,13 @@
                 alt="blog"
               />
               <div class="p-6">
-                <h2
+                <span
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
-                  CATEGORY
-                </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  The Catalyzer
+                  Blog
+                </span>
+                <h1 class="title-font text-2xl leading-10 font-bold text-gray-900 capitalize mb-3">
+                  Networking globally with great investors
                 </h1>
                 <p class="leading-relaxed mb-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -96,10 +96,10 @@
                 <h2
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
-                  CATEGORY
+                  Blog
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  The 400 Blows
+                <h1 class="title-font text-2xl leading-10 font-bold text-gray-900 capitalize mb-3">
+                  Get rid of pest around your crops
                 </h1>
                 <p class="leading-relaxed mb-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -174,10 +174,10 @@
                 <h2
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
-                  CATEGORY
+                  Blog
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  Shooting Stars
+                <h1 class="title-font text-2xl leading-10 font-bold text-gray-900 capitalize mb-3">
+                  Meet the right bussiness partners
                 </h1>
                 <p class="leading-relaxed mb-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -240,7 +240,7 @@
             </div>
           </div>
         </div>
-         <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap -m-4">
           <div class="p-4 md:w-1/3">
             <div
               class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
@@ -254,10 +254,10 @@
                 <h2
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
-                  CATEGORY
+                  Blog
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  The Catalyzer
+                <h1 class="title-font text-2xl leading-10 font-bold text-gray-900 capitalize mb-3">
+                  Sell Your Farm Produce to the world
                 </h1>
                 <p class="leading-relaxed mb-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -332,10 +332,10 @@
                 <h2
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
-                  CATEGORY
+                  Blog
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  The 400 Blows
+                <h1 class="title-font text-2xl leading-10 font-bold text-gray-900 capitalize mb-3">
+                  Cultivate the right farm produce
                 </h1>
                 <p class="leading-relaxed mb-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
@@ -410,10 +410,10 @@
                 <h2
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
-                  CATEGORY
+                  Blog
                 </h2>
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-                  Shooting Stars
+                <h1 class="title-font text-2xl leading-10 font-bold text-gray-900 capitalize mb-3">
+                  Success comes from hardwork
                 </h1>
                 <p class="leading-relaxed mb-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
