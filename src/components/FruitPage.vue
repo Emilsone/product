@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-700 body-font">
+     <section class="text-gray-700 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="text-center mb-20">
         <p
@@ -14,12 +14,10 @@
         </h1>
       </div>
 
-      <ProductsList @tabchange="changeTab($event)" />
-      <div class="product____container" v-show="tabActiveIndex == 0">
+      <ProductList @tabchange="changeTab($event)" />
+      <div class="product____container " v-show="tabActiveIndex == 0">
         <div class="flex flex-wrap -m-4">
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-56 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -28,16 +26,16 @@
               />
             </a>
             <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1 ">
                 Fruit
               </h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">Kiwi</h2>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                Kiwi
+              </h2>
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -50,14 +48,12 @@
                 Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Raspberry
+               Raspberry
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -70,14 +66,12 @@
                 Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Strawberry
+               Strawberry
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -95,10 +89,8 @@
               <p class="mt-1">$18.40</p>
             </div>
           </div>
-
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -111,14 +103,12 @@
                 Vegetable
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Broccoli
+               Broccoli
               </h2>
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -126,19 +116,17 @@
                 src="../assets/png/banana.png"
               />
             </a>
-            <div class="mt-4">
+            <div class="mt-4 ">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                Fruit
+            Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Banana
+               Banana
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -148,17 +136,15 @@
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                Fruit
+               Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Water Melon
+               Water Melon
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class=" border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -168,7 +154,7 @@
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                Vegetable
+              Vegetable
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
                 Melon
@@ -181,54 +167,12 @@
       <div class="flex justify-center align-center lg:mt-12">
         <a href="#" class="btn p-4 px-6 text-white">View More Products</a>
       </div>
-      <div class="furniture-container" v-show="tabActiveIndex == 1">
-        <FruitPage />
-      </div>
-      <div class="lighting-container" v-show="tabActiveIndex == 2">
-        <VegetablePage />
-      </div>
-      <div class="sofa-container" v-show="tabActiveIndex == 3">
-        <DryProducts />
-      </div>
-      <div class="loungechair-container" v-show="tabActiveIndex == 4">
-        <Juice />
-      </div>
+     
     </div>
   </section>
 </template>
-
 <script>
-import ProductsList from "@/components/ProductsList";
-import FruitPage from "@/components/FruitPage";
-import VegetablePage from "@/components/VegetablePage";
-import DryProducts from "@/components/DryProducts";
-import Juice from "@/components/Juice";
 export default {
-  name: "Products",
-  components: {
-    ProductsList,
-    FruitPage,
-    VegetablePage,
-    DryProducts,
-    Juice,
-  },
-  data() {
-    return {
-      tabActiveIndex: 0,
-    };
-  },
-  methods: {
-    changeTab(val) {
-      this.tabActiveIndex = val;
-    },
-  },
-};
+    name:'FruitPage'
+}
 </script>
-<style>
-.text {
-  color: #3d9421;
-}
-.btn {
-  background-color: #3d9421;
-}
-</style>
