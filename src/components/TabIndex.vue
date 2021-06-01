@@ -46,10 +46,10 @@
 
 <script>
 export default {
-  name: 'ProductList',
+  name: 'TabIndex',
   data() {  
     return {
-      tabActiveIndex: 0,
+        tabActiveIndex: 0,
     };
   },
   methods: {

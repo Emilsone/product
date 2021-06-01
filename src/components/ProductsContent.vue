@@ -14,7 +14,7 @@
         </h1>
       </div>
 
-      <ProductsList @tabchange="changeTab($event)" />
+      <TabIndex @tabchange="changeTab($event)" />
       <div class="product____container" v-show="tabActiveIndex == 0">
         <div class="flex flex-wrap -m-4">
           <div
@@ -177,20 +177,20 @@
             </div>
           </div>
         </div>
-      </div>
       <div class="flex justify-center align-center lg:mt-12">
         <a href="#" class="btn p-4 px-6 text-white">View More Products</a>
       </div>
-      <div class="furniture-container" v-show="tabActiveIndex == 1">
+      </div>
+      <div class="fruit-container" v-show="tabActiveIndex == 1">
         <FruitPage />
       </div>
-      <div class="lighting-container" v-show="tabActiveIndex == 2">
+      <div class="vegetable-container" v-show="tabActiveIndex == 2">
         <VegetablePage />
       </div>
-      <div class="sofa-container" v-show="tabActiveIndex == 3">
+      <div class="products-container" v-show="tabActiveIndex == 3">
         <DryProducts />
       </div>
-      <div class="loungechair-container" v-show="tabActiveIndex == 4">
+      <div class="juice-container" v-show="tabActiveIndex == 4">
         <Juice />
       </div>
     </div>
@@ -198,15 +198,15 @@
 </template>
 
 <script>
-import ProductsList from "@/components/ProductsList";
+import TabIndex from "@/components/TabIndex";
 import FruitPage from "@/components/FruitPage";
 import VegetablePage from "@/components/VegetablePage";
 import DryProducts from "@/components/DryProducts";
 import Juice from "@/components/Juice";
 export default {
-  name: "Products",
+  name: "ProductsContent",
   components: {
-    ProductsList,
+    TabIndex,
     FruitPage,
     VegetablePage,
     DryProducts,
