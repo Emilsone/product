@@ -14,188 +14,203 @@
         </h1>
       </div>
 
-      <!-- <ProductList @tabchange="changeTab($event)" /> -->
+      <ProductList @tabchange="changeTab($event)" />
       <div class="product____container" v-show="tabActiveIndex == 0">
         <div class="flex flex-wrap -m-4">
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-48 overflow-hidden">
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
+            <a class="block relative h-56 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/carrot.jpg"
+                src="../assets/all/carrot.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Fruit
               </h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">
-                The Catalyzer
-              </h2>
+              <h2 class="text-gray-900 title-font text-lg font-medium">Kiwi</h2>
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/avo.jpg"
+                src="../assets/all/ginger.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Shooting Stars
+                Egg Plant
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/grape.jpg"
+                src="../assets/all/passion.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Neptune
+                Strawberry
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/spinach.jpg"
+                src="../assets/all/lettuce.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Vegetable
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                The 400 Blows
+                Tomatoe
               </h2>
               <p class="mt-1">$18.40</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/lettuce.jpg"
+                src="../assets/all/brocolli.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Vegetable
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                The Catalyzer
+                Broccoli
               </h2>
               <p class="mt-1">$16.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/green.jpg"
+                src="../assets/all/tomatoe.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Shooting Stars
+                Banana
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/apple.jpg"
+                src="../assets/all/pear.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Neptune
+                Water Melon
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <div
+            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/banana.jpg"
+                src="../assets/all/orange.jpg"
               />
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                CATEGORY
+                Vegetable
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                The 400 Blows
+                Melon
               </h2>
               <p class="mt-1">$18.40</p>
             </div>
           </div>
         </div>
-      </div>
       <div class="flex justify-center align-center lg:mt-12">
         <a href="#" class="btn p-4 px-6 text-white">View More Products</a>
       </div>
-      <!-- <div class="furniture-container " v-show="tabActiveIndex == 1">
-        <Furniture />
       </div>
-      <div class="lighting-container " v-show="tabActiveIndex == 2">
-        <Lighting />
+      <div class="fruit-container" v-show="tabActiveIndex == 1">
+        <FruitPage />
       </div>
-      <div class="sofa-container " v-show="tabActiveIndex == 3">
-        <Sofas />
+      <div class="vegetable-container" v-show="tabActiveIndex == 2">
+        <VegetablePage />
       </div>
-      <div class="loungechair-container " v-show="tabActiveIndex == 4">
-        <LoungeChairs />
-      </div> -->
+      <div class="products-container" v-show="tabActiveIndex == 3">
+        <DryProducts />
+      </div>
+      <div class="juice-container" v-show="tabActiveIndex == 4">
+        <Juice />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
-// import ProductsList from '@/components/ProductsList'
-// import Furniture from '@/components/Furniture'
-// import Lighting from '@/components/Lighting'
-// import Sofas from '@/components/Sofas'
-// import LoungeChairs from '@/components/LoungeChairs'
+import ProductList from "@/components/ProductList";
+import FruitPage from "@/components/FruitPage";
+import VegetablePage from "@/components/VegetablePage";
+import DryProducts from "@/components/DryProducts";
+import Juice from "@/components/Juice";
 export default {
-  name: "Products",
+  name: "ProductsContent",
   components: {
-    // ProductsList,
-    // Furniture,
-    // Lighting,
-    // Sofas,
-    // LoungeChairs,
+    ProductList,
+    FruitPage,
+    VegetablePage,
+    DryProducts,
+    Juice,
   },
   data() {
     return {

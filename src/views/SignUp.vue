@@ -23,8 +23,8 @@
         </div>
       </div>
       <div class="mt-10">
-        <form method="POST" action="" autocomplete="">
-        <div class="relative w-full mb-3">
+        <form method="POST" action="" autocomplete="" @submit.prevent="handleSubmit">
+          <div class="relative w-full mb-3">
             <input
               type="name"
               name="name"
@@ -32,7 +32,7 @@
               placeholder="Name"
               style="transition: all 0.15s ease 0s"
             />
-            <small class="p-2 text-red-500">* Name</small>
+            <!-- <small class="p-2 text-red-500">* Name</small> -->
           </div>
           <div class="relative w-full mb-3">
             <input
@@ -42,7 +42,7 @@
               placeholder="Email"
               style="transition: all 0.15s ease 0s"
             />
-            <small class="p-2 text-red-500">* Email</small>
+            <!-- <small class="p-2 text-red-500">* Email</small> -->
           </div>
           <div class="relative w-full mb-3">
             <input
@@ -52,7 +52,7 @@
               placeholder="Password"
               style="transition: all 0.15s ease 0s"
             />
-            <small class="p-2 text-red-500">* Password</small>
+            <!-- <small class="p-2 text-red-500">* Password</small> -->
           </div>
           <div class="text-center mt-6">
             <button
@@ -62,12 +62,12 @@
             </button>
           </div>
           <div class="flex flex-wrap mt-6">
-            <div class="w-1/2 text-left">
-             
-            </div>
+            <div class="w-1/2 text-left"></div>
             <div class="w-1/2 text-right">
               <a href="#" class="text-blue-900 text-xl"
-                ><small> <router-link to="/signin">Have an account?</router-link> </small></a
+                ><small>
+                  <router-link to="/signin">Have an account?</router-link>
+                </small></a
               >
             </div>
           </div>
@@ -83,6 +83,8 @@
   
 
 <script>
+import { required, minLength, email } from 'vuelidate/lib/validators'
+
 // import { mapActions } from "vuex";
 // import database from "../services/database";
 
@@ -96,21 +98,48 @@ export default {
         email: "",
         password: "",
       },
-      error: "",
+      errors: false,
      
     };
   },
-  //   methods: {
-  //     async signUp() {
-  //       let result = await database.signUp(this.email, this.password);
-  //       this.$router.push("/");
-  //       if (result.message) {
-  //         this.error = result.message;
-  //       } else {
-  //         console.log("User is created");
-  //       }
-  //     },
-  //   },
+  validations: {
+    form: {
+      name: {
+        required,
+        minLength: minLength(2)
+      },
+       email: {
+        required,
+        email
+      },
+      password: {
+        required,
+        minLength: minLength(8)
+      }
+    }
+  },
+    methods: {
+      // async signUp() {
+      //   let result = await database.signUp(this.email, this.password);
+      //   this.$router.push("/");
+      //   if (result.message) {
+      //     this.error = result.message;
+      //   } else {
+      //     console.log("User is created");
+      //   }
+      // },
+     handleSubmit() {
+      this.$v.user.$touch();
+      this.empty = !this.$v.user.$anyDirty;
+      this.errors = this.$v.user.$anyError;
+ 
+      if (this.errors === false && this.empty === false) {
+        JSON.stringify(this.user);
+      } else {
+        console.log("errors");
+      }
+    }
+    }
 };
 </script>
 <style >

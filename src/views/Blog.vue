@@ -1,7 +1,9 @@
 <template>
   <main>
     <TheHeader />
-    <div class="blog-bg"></div>
+    <div class="blog-bg"> <h1 class="text-5xl md:text-8xl font-bold pt-56 text-center uppercase text-white">
+       OUR BLOG
+      </h1></div>
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
@@ -89,7 +91,7 @@
             >
               <img
                 class="lg:h-48 md:h-36 w-full object-cover object-center"
-                src="../assets/blog-2.jpg"
+                src="../assets/pest.jpg"
                 alt="blog"
               />
               <div class="p-6">
@@ -494,9 +496,9 @@ export default {
 </script>
 <style>
 .blog-bg {
-  background-image: url("../assets/bg-one.jpg");
+  background-image: url("../assets/blog-image.jpg");
   background-size: cover;
   height: 100vh;
-  background-blend-mode: hue;
+  background-color: transparent;
 }
 </style>
