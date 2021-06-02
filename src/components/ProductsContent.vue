@@ -70,7 +70,7 @@
                 Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Strawberry
+               Passion Fruit
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
