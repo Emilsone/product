@@ -14,7 +14,7 @@
         </h1>
       </div>
 
-      <TabIndex @tabchange="changeTab($event)" />
+      <ProductList @tabchange="changeTab($event)" />
       <div class="product____container" v-show="tabActiveIndex == 0">
         <div class="flex flex-wrap -m-4">
           <div
@@ -24,7 +24,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/kiwi.png"
+                src="../assets/all/carrot.jpg"
               />
             </a>
             <div class="mt-4">
@@ -42,7 +42,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/raspberry.png"
+                src="../assets/all/ginger.jpg"
               />
             </a>
             <div class="mt-4">
@@ -50,7 +50,7 @@
                 Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Raspberry
+                Egg Plant
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
@@ -62,7 +62,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/strawberry.png"
+                src="../assets/all/passion.jpg"
               />
             </a>
             <div class="mt-4">
@@ -82,7 +82,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/tomatoe.png"
+                src="../assets/all/lettuce.jpg"
               />
             </a>
             <div class="mt-4">
@@ -103,7 +103,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/brocolli.png"
+                src="../assets/all/brocolli.jpg"
               />
             </a>
             <div class="mt-4">
@@ -123,7 +123,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/banana.png"
+                src="../assets/all/tomatoe.jpg"
               />
             </a>
             <div class="mt-4">
@@ -143,7 +143,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/water-melon.png"
+                src="../assets/all/pear.jpg"
               />
             </a>
             <div class="mt-4">
@@ -163,7 +163,7 @@
               <img
                 alt="ecommerce"
                 class="object-cover object-center w-full h-full block"
-                src="../assets/png/melon.png"
+                src="../assets/all/orange.jpg"
               />
             </a>
             <div class="mt-4">
@@ -198,7 +198,7 @@
 </template>
 
 <script>
-import TabIndex from "@/components/TabIndex";
+import ProductList from "@/components/ProductList";
 import FruitPage from "@/components/FruitPage";
 import VegetablePage from "@/components/VegetablePage";
 import DryProducts from "@/components/DryProducts";
@@ -206,7 +206,7 @@ import Juice from "@/components/Juice";
 export default {
   name: "ProductsContent",
   components: {
-    TabIndex,
+    ProductList,
     FruitPage,
     VegetablePage,
     DryProducts,

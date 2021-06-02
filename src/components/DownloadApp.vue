@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-download body-font relative">
+  <section class="bg-download body-font ">
     <div class="md:flex items-center lg:pt-40 ">
       <div class="w-full md:w-1/2 px-10 mb-10 md:mb-0 ">
         <div class="relative">
@@ -8,17 +8,17 @@
             class="w-full relative z-10"
             alt=""
           />
-          <div
+          <!-- <div
             class="border-4 border-gray-200 absolute top-10 bottom-10 left-10 right-10 z-0"
-          ></div>
+          ></div> -->
         </div>
       </div>
       <div class="w-full md:w-1/2 px-10">
         <div class="mb-10">
           <h1 class="font-bold uppercase text-2xl mb-5 md:text-left text-center ">Download our app</h1>
-          <p class="text-sm leading-7 ">
-            We beleive that access to healthy. fresh food is a human right so
-            get products washed ready for box and finally delivered from our
+          <p class="text-md leading-7 ">
+            We beleive that access to healthy fresh food is a human right so
+            we get our products washed ready for box and finally delivered from our
             farm right to your doorstep.
           </p>
         </div>
