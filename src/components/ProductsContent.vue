@@ -17,9 +17,7 @@
       <ProductList @tabchange="changeTab($event)" />
       <div class="product____container" v-show="tabActiveIndex == 0">
         <div class="flex flex-wrap -m-4">
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class="border-2 lg:w-1/4 md:w-1/2 p-8 w-full">
             <a class="block relative h-56 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -34,10 +32,25 @@
               <h2 class="text-gray-900 title-font text-lg font-medium">Kiwi</h2>
               <p class="mt-1">$16.00</p>
             </div>
+            <div class="flex justify-center mt-4">
+              <span
+                ><i
+                  class="fa fa-shopping-bag text-lg px-6"
+                  aria-hidden="true"
+                ></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+            </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -54,10 +67,25 @@
               </h2>
               <p class="mt-1">$21.15</p>
             </div>
+            <div class="flex justify-center mt-4">
+              <span
+                ><i
+                  class="fa fa-shopping-bag text-lg px-6"
+                  aria-hidden="true"
+                ></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+            </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -70,14 +98,29 @@
                 Fruit
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-               Passion Fruit
+                Passion Fruit
               </h2>
               <p class="mt-1">$12.00</p>
             </div>
+            <div class="flex justify-center mt-4">
+              <span
+                ><i
+                  class="fa fa-shopping-bag text-lg px-6"
+                  aria-hidden="true"
+                ></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+            </div>
           </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
+          <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
             <a class="block relative h-48 overflow-hidden">
               <img
                 alt="ecommerce"
@@ -90,96 +133,183 @@
                 Vegetable
               </h3>
               <h2 class="text-gray-900 title-font text-lg font-medium">
-                Tomatoe
+                Lettuce
               </h2>
               <p class="mt-1">$18.40</p>
+            </div>
+            <div class="flex justify-center mt-4">
+              <span
+                ><i
+                  class="fa fa-shopping-bag text-lg px-6"
+                  aria-hidden="true"
+                ></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
+              <span
+                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+              ></span>
             </div>
           </div>
 
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
-            <a class="block relative h-48 overflow-hidden">
-              <img
-                alt="ecommerce"
-                class="object-cover object-center w-full h-full block"
-                src="../assets/all/brocolli.jpg"
-              />
-            </a>
-            <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                Vegetable
-              </h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">
-                Broccoli
-              </h2>
-              <p class="mt-1">$16.00</p>
+          <div class="flex flex-wrap md:mt-12">
+            <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
+              <a class="block relative h-48 overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="../assets/all/brocolli.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Vegetable
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Broccoli
+                </h2>
+                <p class="mt-1">$16.00</p>
+              </div>
+              <div class="flex justify-center mt-4">
+                <span
+                  ><i
+                    class="fa fa-shopping-bag text-lg px-6"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+              </div>
             </div>
-          </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
-            <a class="block relative h-48 overflow-hidden">
-              <img
-                alt="ecommerce"
-                class="object-cover object-center w-full h-full block"
-                src="../assets/all/tomatoe.jpg"
-              />
-            </a>
-            <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                Fruit
-              </h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">
-                Banana
-              </h2>
-              <p class="mt-1">$21.15</p>
+            <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
+              <a class="block relative h-48 overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="../assets/all/tomatoe.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Vegetable
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Tomatoe
+                </h2>
+                <p class="mt-1">$21.15</p>
+              </div>
+              <div class="flex justify-center mt-4">
+                <span
+                  ><i
+                    class="fa fa-shopping-bag text-lg px-6"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+              </div>
             </div>
-          </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
-            <a class="block relative h-48 overflow-hidden">
-              <img
-                alt="ecommerce"
-                class="object-cover object-center w-full h-full block"
-                src="../assets/all/pear.jpg"
-              />
-            </a>
-            <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                Fruit
-              </h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">
-                Water Melon
-              </h2>
-              <p class="mt-1">$12.00</p>
+            <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
+              <a class="block relative h-48 overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="../assets/all/pear.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Juice
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Pear Juice
+                </h2>
+                <p class="mt-1">$12.00</p>
+              </div>
+              <div class="flex justify-center mt-4">
+                <span
+                  ><i
+                    class="fa fa-shopping-bag text-lg px-6"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+              </div>
             </div>
-          </div>
-          <div
-            class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
-          >
-            <a class="block relative h-48 overflow-hidden">
-              <img
-                alt="ecommerce"
-                class="object-cover object-center w-full h-full block"
-                src="../assets/all/orange.jpg"
-              />
-            </a>
-            <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-                Vegetable
-              </h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">
-                Melon
-              </h2>
-              <p class="mt-1">$18.40</p>
+            <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
+              <a class="block relative h-48 overflow-hidden">
+                <img
+                  alt="ecommerce"
+                  class="object-cover object-center w-full h-full block"
+                  src="../assets/all/orange.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Juice
+                </h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">
+                  Orange Juice
+                </h2>
+                <p class="mt-1">$18.40</p>
+              </div>
+              <div class="flex justify-center mt-4">
+                <span
+                  ><i
+                    class="fa fa-shopping-bag text-lg px-6"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                ></span>
+              </div>
             </div>
           </div>
         </div>
-      <div class="flex justify-center align-center lg:mt-12">
-        <a href="#" class="btn p-4 px-6 text-white">View More Products</a>
-      </div>
+        <div class="flex justify-center align-center lg:mt-12">
+          <a href="#" class="btn p-4 px-6 text-white">View More Products</a>
+        </div>
       </div>
       <div class="fruit-container" v-show="tabActiveIndex == 1">
         <FruitPage />
