@@ -9,6 +9,8 @@
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-900">
         Opps! Your cart is emply please kindly fill it up
       </p>
+
+      
     </div>
   </div>
 </template>
