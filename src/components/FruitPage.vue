@@ -18,6 +18,20 @@
           <h2 class="text-gray-900 title-font text-lg font-medium">Apple</h2>
           <p class="mt-1">$16.00</p>
         </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+        </div>
       </div>
       <div
         class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
@@ -36,6 +50,20 @@
           <h2 class="text-gray-900 title-font text-lg font-medium">Banana</h2>
           <p class="mt-1">$21.15</p>
         </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+        </div>
       </div>
       <div
         class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
@@ -53,6 +81,20 @@
           </p>
           <h2 class="text-gray-900 title-font text-lg font-medium">Carrot</h2>
           <p class="mt-1">$12.00</p>
+        </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
         </div>
       </div>
       <div
@@ -74,6 +116,20 @@
           </h2>
           <p class="mt-1">$18.40</p>
         </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+        </div>
       </div>
 
       <div
@@ -93,6 +149,20 @@
           <h2 class="text-gray-900 title-font text-lg font-medium">Grape</h2>
           <p class="mt-1">$16.00</p>
         </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+        </div>
       </div>
       <div
         class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
@@ -110,6 +180,20 @@
           </p>
           <h2 class="text-gray-900 title-font text-lg font-medium">Orange</h2>
           <p class="mt-1">$21.15</p>
+        </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
         </div>
       </div>
       <div
@@ -131,6 +215,20 @@
           </h2>
           <p class="mt-1">$12.00</p>
         </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+        </div>
       </div>
       <div
         class="border-2 border-gray-200 border-opacity-60 lg:w-1/4 md:w-1/2 p-4 w-full"
@@ -151,11 +249,25 @@
           </h2>
           <p class="mt-1">$18.40</p>
         </div>
+        <div class="flex justify-center mt-4">
+          <span
+            ><i class="fa fa-shopping-bag text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+          ></span>
+          <span
+            ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+          ></span>
+        </div>
       </div>
     </div>
-      <div class="flex justify-center align-center lg:mt-12">
-        <a href="#" class="btn p-4 px-6 text-white">View More Products</a>
-      </div>
+    <div class="flex justify-center align-center lg:mt-12">
+      <a href="#" class="btn p-4 px-6 text-white">View More Products</a>
+    </div>
   </section>
 </template>
 <script>
