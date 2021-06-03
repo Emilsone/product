@@ -43,11 +43,11 @@
                 ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
               ></span>
               <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
-              <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+                ></span>
             </div>
           </div>
           <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
@@ -77,12 +77,12 @@
               <span
                 ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
               ></span>
-              <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
-              <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
+             <span
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+                ></span>
             </div>
           </div>
           <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
@@ -112,12 +112,12 @@
               <span
                 ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
               ></span>
-              <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
-              <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
+             <span
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+                ></span>
             </div>
           </div>
           <div class="border-2 lg:w-1/4 md:w-1/2 p-12 w-full">
@@ -147,12 +147,12 @@
               <span
                 ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
               ></span>
-              <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
-              <span
-                ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
-              ></span>
+             <span
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
+                ></span>
             </div>
           </div>
 
@@ -187,10 +187,10 @@
                   ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
                 ></span>
               </div>
             </div>
@@ -224,10 +224,10 @@
                   ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
                 ></span>
               </div>
             </div>
@@ -261,10 +261,10 @@
                   ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
                 ></span>
               </div>
             </div>
@@ -298,10 +298,10 @@
                   ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-search text-lg px-6" aria-hidden="true"></i
                 ></span>
                 <span
-                  ><i class="fa fa-heart-o text-lg px-6" aria-hidden="true"></i
+                  ><i class="fa fa-star-o text-lg px-6" aria-hidden="true"></i
                 ></span>
               </div>
             </div>
