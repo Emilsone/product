@@ -6,6 +6,7 @@
     <DeliveryPage />
     <ProductsContent />
     <DownloadApp />
+    <AppServicePage />
     <TheFooter />
   </main>
 </template>
@@ -16,6 +17,7 @@ import HowWeWork from "@/components/HowWeWork.vue";
 import DeliveryPage from "@/components/DeliveryPage.vue";
 import ProductsContent from "@/components/ProductsContent.vue";
 import DownloadApp from "@/components/DownloadApp.vue";
+import AppServicePage from "@/components/AppServicePage.vue";
 import TheFooter from "@/components/TheFooter.vue";
 export default {
   components: {
@@ -25,6 +27,7 @@ export default {
     DeliveryPage,
     ProductsContent,
     DownloadApp,
+    AppServicePage,
     TheFooter,
   },
 };
