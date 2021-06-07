@@ -10,7 +10,10 @@
       Before you proceed to checkout you must add some products to your shopping cart.You will find a lot of interesting products on our Shop page.
       </p>
 
-      
+       <div class=" pt-12 w-full">
+      <i class="fa fa-shopping-cart text-black text-9xl opacity-20" aria-hidden="true"></i>
+
+      </div>
     </div>
   </div>
 </template>
