@@ -93,6 +93,22 @@
         >
           Send Message
         </button>
+
+         <div class="py-4 px-6">
+            <h2
+              class="title-font font-semibold text-gray-900 tracking-widest text-xl"
+            >
+               Opening Hours
+            </h2>
+            <p class="mt-1">Mon - Fri 9am - 5pm</p>
+             <p class="mt-1">Sat - Sun 11am - 4pm</p>
+          </div>
+
+
+        
+
+
+
       </div>
     </div>
     <TheFooter />
