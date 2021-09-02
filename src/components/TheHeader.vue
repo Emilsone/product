@@ -52,7 +52,7 @@
             <a
               class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              ><router-link to="/appfarmers"
+              ><router-link to="/farmers"
                 >OUR FARMERS</router-link
             ></a>
           </li>
