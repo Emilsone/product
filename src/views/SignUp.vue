@@ -1,7 +1,7 @@
 
 <template>
   <div
-    class="flex flex-col items-center justify-center bg-gray-300 h-screen select-none"
+    class="flex flex-col items-center justify-center bg-gray-100 h-screen select-none"
   >
     <div
       class="flex flex-col -mt-32 bg-white px-4 sm:px-6 md:px-8 lg:px-10 py-8 rounded-xl shadow-2xl w-full max-w-md border-l-4 border"
@@ -28,7 +28,7 @@
             <input
               type="name"
               name="name"
-              class="border-0 p-4 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+              class="rounded border border-gray-300 focus:border-green-700 focus:ring-2 focus:ring-green-700 text-base outline-none placeholder-black p-4 leading-8 transition-colors duration-200 ease-in-out w-full"
               placeholder="Name"
               style="transition: all 0.15s ease 0s"
             />
@@ -38,7 +38,7 @@
             <input
               type="email"
               name="email"
-              class="border-0 p-4 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+              class="rounded border border-gray-300 focus:border-green-700 focus:ring-2 focus:ring-green-700 text-base outline-none placeholder-black p-4 leading-8 transition-colors duration-200 ease-in-out w-full"
               placeholder="Email"
               style="transition: all 0.15s ease 0s"
             />
@@ -48,7 +48,7 @@
             <input
               type="password"
               name="password"
-              class="border-0 p-4 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+              class="rounded border border-gray-300 focus:border-green-700 focus:ring-2 focus:ring-green-700 text-base outline-none placeholder-black p-4 leading-8 transition-colors duration-200 ease-in-out w-full"
               placeholder="Password"
               style="transition: all 0.15s ease 0s"
             />
@@ -83,63 +83,12 @@
   
 
 <script>
-import { required, minLength, email } from 'vuelidate/lib/validators'
-
-// import { mapActions } from "vuex";
-// import database from "../services/database";
 
 export default {
   name: "Register",
   components: {},
-  data() {
-    return {
-      form: {
-        name: "",
-        email: "",
-        password: "",
-      },
-      errors: false,
-     
-    };
-  },
-  validations: {
-    form: {
-      name: {
-        required,
-        minLength: minLength(2)
-      },
-       email: {
-        required,
-        email
-      },
-      password: {
-        required,
-        minLength: minLength(8)
-      }
-    }
-  },
-    methods: {
-      // async signUp() {
-      //   let result = await database.signUp(this.email, this.password);
-      //   this.$router.push("/");
-      //   if (result.message) {
-      //     this.error = result.message;
-      //   } else {
-      //     console.log("User is created");
-      //   }
-      // },
-     handleSubmit() {
-      this.$v.user.$touch();
-      this.empty = !this.$v.user.$anyDirty;
-      this.errors = this.$v.user.$anyError;
- 
-      if (this.errors === false && this.empty === false) {
-        JSON.stringify(this.user);
-      } else {
-        console.log("errors");
-      }
-    }
-    }
+
+    
 };
 </script>
 <style >
