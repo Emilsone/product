@@ -2,7 +2,7 @@
 <template>
   <!-- component -->
   <div
-    class="flex flex-col items-center justify-center bg-gray-300 h-screen select-none"
+    class="flex flex-col items-center justify-center bg-gray-100 h-screen select-none"
   >
     <div
       class="flex flex-col -mt-32 bg-white px-4 sm:px-6 md:px-8 lg:px-10 py-8 rounded-xl shadow-2xl w-full max-w-md border-l-4 border"
