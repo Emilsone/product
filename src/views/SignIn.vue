@@ -63,7 +63,7 @@
             <div class="w-1/2 text-right">
               <a href="#" class="text-blue-900 text-xl"
                 ><small><router-link to="/signup">
-              Dont have an account? </router-link 
+              Don't have an account? </router-link 
                ></small></a
               >
             </div>
