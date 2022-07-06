@@ -132,18 +132,10 @@
           </div>
           <div class="flex flex-wrap mt-6">
             <div class="w-1/2 text-left">
-              <a href="#" class="text-blue-900 text-xl"
-                ><small>Forgot password?</small></a
-              >
+              <router-link to="/forgotpassword"> Forgot Password? </router-link>
             </div>
             <div class="w-1/2 text-right">
-              <a href="#" class="text-blue-900 text-xl"
-                ><small
-                  ><router-link to="/signup">
-                    Don't have an account?
-                  </router-link></small
-                ></a
-              >
+              <router-link to="/signup"> Don't have an account? </router-link>
             </div>
           </div>
         </form>
@@ -161,9 +153,6 @@
 // import database from "../services/database";
 export default {
   name: "SignIn",
-
-  
- 
 };
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-download body-font ">
+  <section class="bg-download body-font my-12 ">
     <div class="md:flex items-center lg:pt-40 ">
       <div class="w-full md:w-1/2 px-10 mb-10 md:mb-0 ">
         <div class="relative">
@@ -50,7 +50,7 @@ export default {
 </script>
 <style>
 .bg-download {
-  background-color: #f4f3f1;
+  /* background-color: #f4f3f1; */
   color: black;
   height: 100vh;
 }
