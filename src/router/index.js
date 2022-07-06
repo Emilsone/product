@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Farmers from '../views/Farmers.vue'
 import SignIn from '../views/SignIn.vue'
 import SignUp from '../views/SignUp.vue'
+import ForgotPassword from '../views/ForgotPassword.vue'
 import Contact from '../views/Contact.vue'
 import Blog from '../views/Blog.vue'
 import WishListPage from '../views/WishListPage.vue'
@@ -31,6 +32,11 @@ const routes = [
     path: '/signup',
     name: 'SignUp',
     component: SignUp
+  },
+  {
+    path: '/forgotpassword',
+    name: 'ForgotPassword',
+    component: ForgotPassword
   },
   {
     path: '/blog',

@@ -64,11 +64,7 @@
           <div class="flex flex-wrap mt-6">
             <div class="w-1/2 text-left"></div>
             <div class="w-1/2 text-right">
-              <a href="#" class="text-blue-900 text-xl"
-                ><small>
-                  <router-link to="/signin">Have an account?</router-link>
-                </small></a
-              >
+              <router-link to="/signin">Have an account?</router-link>
             </div>
           </div>
         </form>
@@ -78,14 +74,10 @@
 </template>
 
 
-
-    
-  
-
 <script>
 
 export default {
-  name: "Register",
+  name: "Signup",
   components: {},
 
     
