@@ -62,7 +62,7 @@
             <h2 class="text-gray-900 text-lg title-font font-bold">Free Shipping</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+            <p class="leading-relaxed text-base">We offer free shipping to customers who place order for 3 of our farm prodcuts or buy in large quantity</p>
       
           </div>
         </div>
@@ -76,7 +76,7 @@
             <h2 class="text-gray-900 text-lg title-font font-bold">Easy Online Returns</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+            <p class="leading-relaxed text-base">A customers satisfaction is our priority, if you are not comfortable with the item you order you can return it within 3 days this implies only to our sealed products</p>
             
           </div>
         </div>
@@ -106,6 +106,6 @@
   background-color: #3d9421;
 }
 .card-container{
-  background-color: #fdfdff;
+  background-color: #f7f7f7;
 }
 </style>
