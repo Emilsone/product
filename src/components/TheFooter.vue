@@ -45,18 +45,40 @@
           <p class="uppercase md:mb-6 font-bold py-0">
             newsletter subscription
           </p>
-          
+
           <!-- component -->
           <div>
-            <p class="texl-sm py-2">A 30-second newsletter with new product, discount, service.</p>
+            <p class="texl-sm py-2">
+              A 30-second newsletter with new product, discount, service.
+            </p>
             <form class="flex md:flex-nowrap flex-wrap">
-              
               <input
-                class="md:w-3/4 w-full p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+                class="
+                  md:w-3/4
+                  w-full
+                  p-4
+                  border-t
+                  mr-0
+                  border-b border-l
+                  text-gray-800
+                  border-gray-200
+                  bg-white
+                "
                 placeholder="your@mail.com"
               />
               <button
-                class="px-4 md:my-0 my-4 suscribe text-white p-4 uppercase border-t border-b border-r md:mx-auto block"
+                class="
+                  px-4
+                  md:my-0
+                  my-4
+                  suscribe
+                  text-white
+                  p-4
+                  uppercase
+                  border-t border-b border-r
+                  md:mx-auto
+                  block
+                "
               >
                 Subscribe
               </button>
@@ -84,7 +106,7 @@
                   aria-hidden="true"
                 ></i>
               </li>
-              <li class="mt-2 inline-block mr-3 md:mr-6 w-12 span h-10 py-2">
+              <li class="mt-2 inline-block mr-4 md:mr-6  w-12 span h-10 py-2">
                 <i
                   class="fa fa-linkedin align-center flex justify-center"
                   aria-hidden="true"
