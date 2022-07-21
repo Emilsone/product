@@ -55,12 +55,12 @@ const routes = [
     component: Contact
   },
    {
-    path: '/wishlistpage',
+    path: '/wishlist',
     name: 'WishListPage',
     component: WishListPage
   },
   {
-    path: '/cartpage',
+    path: '/cart',
     name: 'CartPage',
     component: CartPage
   },

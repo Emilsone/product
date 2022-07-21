@@ -31,6 +31,7 @@
             <p class="leading-relaxed">Connect to nearest farm</p>
           </div>
         </div>
+        
         <div class="lg:w-1/4 w-5/6 lg:mb-0 mb-6 p-4">
           <div class="h-full text-center">
             <div

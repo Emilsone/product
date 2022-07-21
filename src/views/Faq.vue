@@ -36,5 +36,3 @@ export default {
   height: 100vh;
   background-blend-mode: hue;
 }
-</style>
-
