@@ -1,13 +1,4 @@
-<<<<<<< Updated upstream
-<carousel>
-  <slide>
-    Slide 1 Content
-  </slide>
-  <slide>
-    Slide 2 Content
-  </slide>
-</carousel>
-=======
+
 <template>
   <main>
     <TheHeader />
@@ -46,4 +37,4 @@ export default {
   background-blend-mode: hue;
 }
 </style>
->>>>>>> Stashed changes
+

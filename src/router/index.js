@@ -2,13 +2,14 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Farmers from '../views/Farmers.vue'
+import Blog from '../views/Blog.vue'
+import Faq from '../views/Faq.vue'
+import Contact from '../views/Contact.vue'
+import WishListPage from '../views/WishListPage.vue'
+import CartPage from '../views/CartPage.vue'
 import SignIn from '../views/SignIn.vue'
 import SignUp from '../views/SignUp.vue'
 import ForgotPassword from '../views/ForgotPassword.vue'
-import Contact from '../views/Contact.vue'
-import Blog from '../views/Blog.vue'
-import WishListPage from '../views/WishListPage.vue'
-import CartPage from '../views/CartPage.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -42,6 +43,11 @@ const routes = [
     path: '/blog',
     name: 'Blog',
     component: Blog
+  },
+  {
+    path: '/faq',
+    name: 'Faq',
+    component: Faq
   },
   {
     path: '/contact',
