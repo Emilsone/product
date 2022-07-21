@@ -1,7 +1,7 @@
 <template>
   <main>
     <TheHeader />
-    <section class="hero___content">
+    <section class="bg-section">
       <div class="pt-24">
         <div
           class="
@@ -24,6 +24,7 @@
               items-center
               text-center
               md:text-left
+              lg:pl-4
             "
           >
             <h1 class="my-4 text-5xl font-bold leading-tight">
@@ -36,7 +37,7 @@
           </div>
           <!--Right Col-->
           <div class="w-full md:w-3/5 py-6 text-center">
-            <img class="w-full md:w-4/5 z-50" src="../assets/OBJECTS.png" alt />
+            <img class="w-full md:w-5/6 z-50" src="../assets/OBJECTS.png" alt />
           </div>
         </div>
       </div>
