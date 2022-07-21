@@ -18,6 +18,7 @@
             class="
               flex flex-col
               w-full
+              leading-9
               md:w-2/5
               justify-center
               lg:items-start
@@ -27,13 +28,15 @@
               lg:pl-4
             "
           >
-            <h1 class="my-4 text-5xl font-bold leading-tight">
+            <h1 class="my-4 text-4xl font-bold mb-4 leading-tight md:mb-8">
               Meet Our Innovative Farmers with a Wide Range of Experience
             </h1>
-            <p class="leading-normal text-lg mb-4">
-             We take special care to select and grow specific crop varieties where exceptional flavor is the focus, with a determination to bring the best-tasting produce.
+            <p class="leading-normal text-lg mb-4 md:mb-8">
+              We take special care to select and grow specific crop varieties
+              where exceptional flavor is the focus, with a determination to
+              bring the best-tasting produce.
             </p>
-           
+            <a href="#" class="btn p-2 px-6 text-white ">Shop Now</a>
           </div>
           <!--Right Col-->
           <div class="w-full md:w-3/5 py-6 text-center">
