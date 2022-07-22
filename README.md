@@ -1,7 +1,6 @@
-# farm-Product
+# Product
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/89f3117e-d315-4c64-83e2-8c0d9e33b399/deploy-status)](https://app.netlify.com/sites/farmpro/deploys)
 
 ## Project setup
 ```
